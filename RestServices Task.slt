@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "RestServices Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "regular",
+        "llfeed_token": "Kav5cJRJJtWJxuYMH1Kfsf1gkylcagSC",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "_lat": "19",
+            "_long": "72"
+        },
+        "pipeline_path": "RestServices",
+        "snaplex_path": "cloud-dev"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

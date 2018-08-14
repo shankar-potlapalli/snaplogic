@@ -1,0 +1,673 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 8,
+    "link_map": {
+        "link154": {
+            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link156": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "11111111-1111-1111-1111-000000000004_error0": {
+                "label": {
+                    "value": "Email Sender attachment - error0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "spotlapalli@snaplogic.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000002_input0": {
+                "label": {
+                    "value": "JSON Formatter - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_input101": {
+                "label": {
+                    "value": "Email Sender attachment - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000003_output0": {
+                "label": {
+                    "value": "Mapper1 - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_output102": {
+                "label": {
+                    "value": "Email Sender attachment - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 3,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "62b8f171-9e48-454d-b810-9ffc7289e441",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 270,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "emailfile.json"
+                    },
+                    "flushIntervalKb": {
+                        "value": -1
+                    },
+                    "retries": {
+                        "value": 0
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-email-emailreader",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "testacc"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-pop3account"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "ignore"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "archive": {
+                        "value": false
+                    },
+                    "archiveFolder": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "attachmentFolder": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "mailFolder": {
+                        "expression": false,
+                        "value": "Inbox"
+                    },
+                    "numberOfMessages": {
+                        "value": "5"
+                    },
+                    "olderMessageFirst": {
+                        "value": false
+                    },
+                    "unreadOnly": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "contentPath": {
+                        "value": "$"
+                    },
+                    "formatSingleDocument": {
+                        "value": false
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "jsonLines": {
+                        "value": false
+                    },
+                    "prettyPrint": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$from[0]"
+                                        },
+                                        "targetPath": {
+                                            "value": "$SENDER"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$subject"
+                                        },
+                                        "targetPath": {
+                                            "value": "$TITLE"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$textBody"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DESCRIPTION"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$htmlBody"
+                                        },
+                                        "targetPath": {
+                                            "value": "$DESCRIPTION2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$attachments"
+                                        },
+                                        "targetPath": {
+                                            "value": "$attachments"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$Path"
+                                        },
+                                        "targetPath": {
+                                            "value": "$path"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$attachments[0].filename.substr($attachments[0].filename.lastIndexOf(\"/\"))"
+                                        },
+                                        "targetPath": {
+                                            "value": "$attach"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$attachments[*].filename\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$attach1"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "value": "psung@snaplogic.com smtp"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Email Sender attachment"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "attachments": {
+                        "value": [
+                            {
+                                "url": {
+                                    "expression": true,
+                                    "value": "$attach"
+                                }
+                            }
+                        ]
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": true,
+                        "value": "$DESCRIPTION2"
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "HTML text"
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": false,
+                        "value": "Test files"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": false,
+                        "value": "spotlapalli@snaplogic.com"
+                    }
+                },
+                "view_serial": 102
+            }
+        }
+    }
+}
